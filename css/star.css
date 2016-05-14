@@ -1,0 +1,24 @@
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.company-cont-labelpop .stars {
+  padding: 0 0 0 0px;
+  margin: 0px 0 10px 0;
+  overflow: hidden;
+}
+
+.company-cont-labelpop .stars li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(../images/resumemanage-star-pic.png) no-repeat 0 0;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.company-cont-labelpop .stars li.active {
+  background-position: 0 -30px;
+}

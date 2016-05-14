@@ -1,0 +1,19 @@
+<html ng-app='app'>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/star.css">
+  <script type="text/javascript" src="angular.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="directive/my-star.js"></script>
+  <script type="text/javascript" src="controller/star.js"></script>
+</head>
+
+<body>
+  <div class="company-cont-labelpop" ng-controller="starCtrl">
+    <my-star max-count="10" ng-model="starLevel" my-click="test();" require></my-star>
+  </div>
+</body>
+
+</html>
